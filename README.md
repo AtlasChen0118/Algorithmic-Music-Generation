@@ -70,11 +70,4 @@ piece = mix_tracks(melody_gain=0.75, chord_gain=1.0)
 sound(piece, sr)
 ```
 
-## Status / Known Issues
 
-- Voice leading in `smooth_voicing` prevents crossing but does not yet fully prevent overlapping voices on the same pitch.
-- The `arch` contour uses a simplified convex/concave approximation rather than a true arch-shaped filter.
-
-## License
-
-Add a license of your choice here (e.g. MIT).
